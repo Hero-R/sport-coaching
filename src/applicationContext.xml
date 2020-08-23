@@ -36,6 +36,10 @@
     	
     	<!-- set up setter injection -->
     	<property name="fortuneService" ref="myFortuneService" />
+    	
+    	<!-- inject literal values -->
+    	<property name="emailAddress" value="spring@herocode.com"></property>
+    	<property name="team" value="Hero Spring"></property>
     </bean>
 </beans>
 
